@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GIft</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <p id="p" style="position: absolute; margin-top:77%;">Please click on the <strong style="color:red">red</strong> heart above or <strong style="color: red;">red color</strong>above</p>
+    <p id="p1" style="position: absolute; margin-top:90%; font-size:20px;">خوش آمدی!  خانم امینی</p>
+    <p id="p2" style="position: absolute; margin-top:100%; ">با مهر: حجت الله "محمدی" و</p>
+    <video controls autoplay >
+        <source src="./love.mp4" type="video/mp4">
+    </video>
+    <div class="container">
+        <div class="wrapper-envelope">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>سلام به بهترین دوست دست نیافتنی </strong>
+                        <p>امید که خوب و سرحال باشی و همیشه بخندی و در تمام امورات زندگی موفق باشی. مهم نیست که چه گذشت و چه ها گفتیم همین
+                            که حال دلت خوبه کافیست. خدا رو چی دیدی شاید شد.د
+                        </p>     
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.wrapper-envelope');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>
